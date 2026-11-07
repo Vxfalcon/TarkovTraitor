@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">Tarkov Traitor</title>
+  <desc id="desc">An olive and amber field map illustration with a route, extract marker and the Tarkov Traitor wordmark.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#657561" stroke-opacity=".22"/>
+    </pattern>
+    <linearGradient id="panel">
+      <stop stop-color="#111713"/>
+      <stop offset="1" stop-color="#252d22"/>
+    </linearGradient>
+    <clipPath id="border"><rect width="1200" height="350" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#border)">
+    <rect width="1200" height="350" fill="url(#panel)"/>
+    <path d="M650 0H1200V350H583Z" fill="url(#grid)"/>
+    <g fill="none" stroke="#96a38c" opacity=".26" stroke-width="1.5">
+      <path d="M615 305Q691 237 766 248T911 184Q956 139 991 154T1135 68L1200 30"/>
+      <path d="M610 326Q691 255 769 268T931 196Q961 157 1001 175T1149 87L1200 55"/>
+      <path d="M638 344Q702 277 776 290T946 219Q979 179 1014 193T1161 112L1200 81"/>
+      <path d="M685 350Q732 298 783 309T970 232Q997 194 1030 213T1178 133L1200 116"/>
+      <path d="M683 167Q777 137 795 97T942 42L1020 0M674 146Q752 119 773 87T924 24L957 0"/>
+    </g>
+    <path d="M744 254l73-47 59 11 83-96 94 27 68-80" fill="none" stroke="#e6b76a" stroke-width="3" stroke-dasharray="6 7"/>
+    <circle cx="744" cy="254" r="13" fill="#1d281e" stroke="#b9d2a3" stroke-width="2"/>
+    <path d="m739 258 6-13 6 13-6-3Z" fill="#b9d2a3"/>
+    <circle cx="1121" cy="69" r="13" fill="#29261a" stroke="#e6b76a" stroke-width="2"/>
+    <circle cx="1121" cy="69" r="4" fill="#e6b76a"/>
+    <path d="M1119 92h55v19" fill="none" stroke="#a99571"/>
+    <text x="1098" y="130" fill="#ead0a0" font-family="monospace" font-size="15" letter-spacing="2">EXTRACT</text>
+    <path d="M55 45v260" stroke="#d2a45f" stroke-width="3"/>
+    <text x="83" y="76" fill="#d2a45f" font-family="monospace" font-size="17" letter-spacing="4">ESCAPE FROM TARKOV COMPANION</text>
+    <text x="79" y="165" fill="#f1eee2" font-family="Arial, sans-serif" font-weight="800" font-size="76">Tarkov Traitor</text>
+    <text x="85" y="224" fill="#c8cbbc" font-family="Arial, sans-serif" font-size="26">Maps, stash and market intel</text>
+    <text x="85" y="292" fill="#a6b297" font-family="monospace" font-size="16" letter-spacing="3">WINDOWS  /  PVP + PVE</text>
+    <rect x="1" y="1" width="1198" height="348" rx="17" fill="none" stroke="#53614e" stroke-width="2"/>
+  </g>
+</svg>
